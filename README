@@ -1,4 +1,4 @@
-This project contain a sample of WCF contract callback.
-To see it working co to bin/Debug and start service first then client.
+This project contains a sample of WCF contract callback.
+To see it working go to bin/Debug and start service first then client.
 Client will ask a server to perform an opperation, it will also provide a callback interface to the service.
-Once the operation on the service is complete, the service calls the provided callback to the client.
+Once the operation on the service is completed, the service would call provided callback to the client.
