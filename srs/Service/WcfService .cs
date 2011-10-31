@@ -1,9 +1,11 @@
-﻿using System;
+using System;
 using System.ServiceModel;
 using Core;
 
 namespace Service
 {
+    //This property indicates whether an instance of a service can handle one thread 
+    //or multiple threads that execute concurrently
     [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple)]
     internal class WcfService : IContract
     {
